@@ -1,0 +1,26 @@
+{
+	"powers":[
+	   "pheonix:extra_hearts",
+	   "pheonix:fire_particles",
+	   "pheonix:fire_resistance",
+	   "pheonix:fire_shot",
+	   "pheonix:fire_strength",
+	   "pheonix:hydrophobic",
+	   "pheonix:inv_handler",
+	   "pheonix:launch",
+	   "pheonix:lava_swim",
+	   "pheonix:lava_vision",
+	   "pheonix:light_armor_only",
+	   "pheonix:more_fall_damage",
+	   "pheonix:nether_spawn",
+	   "pheonix:no_iron",
+	   "pheonix:no_pickup",
+	   "pheonix:pheonix_body",
+	   "pheonix:wings"
+	],
+	"icon":"minecraft:magma_cream",
+	"order":10,
+	"impact":3,
+	"name":"Pheonix",
+	"description":"A long-lived, immortal bird. Your wings powers have been long sought after by many through time. You've lived for decades, and will probably be here after everyone else is gone."
+}

@@ -1,0 +1,6 @@
+{
+    "name":"Winged Creature",
+    "description":"As a phoenix, you are naturally born with wings.",
+    "type":"origins:elytra_flight",
+    "render_elytra":true
+}

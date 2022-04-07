@@ -1,0 +1,13 @@
+{
+  "name":"Fire Strength",
+  "description":"Because of your lineage and body, you are much stronger when on fire.",
+  "type":"origins:modify_damage_dealt",
+  "condition":{
+     "type":"origins:on_fire"
+  },
+  "modifier":{
+     "name":"Additional damage while on fire",
+     "value":10,
+     "operation":"addition"
+  }
+}

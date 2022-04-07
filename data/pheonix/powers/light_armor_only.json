@@ -1,0 +1,25 @@
+{
+  "name":"Light Armor Only",
+  "description":"You struggle to stay afloat when you're wearing heavy armor. Because of this, you've decided that you will only wear light armor. (Anything that's less or equal to chainmail)",
+  "type":"origins:restrict_armor",
+  "head":{
+     "type":"origins:armor_value",
+     "comparison":">",
+     "compare_to":2
+  },
+  "chest":{
+     "type":"origins:armor_value",
+     "comparison":">",
+     "compare_to":5
+  },
+  "legs":{
+     "type":"origins:armor_value",
+     "comparison":">",
+     "compare_to":4
+  },
+  "feet":{
+     "type":"origins:armor_value",
+     "comparison":">",
+     "compare_to":1
+  }
+}

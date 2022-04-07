@@ -1,0 +1,121 @@
+{
+    "name":"No Iron",
+    "description":"Because your body is made out of fire, iron melts in your hand to the point of nothing. You can not pickup any iron items and if they get into your inventory, they will be disintegrated and be lost forever.",
+    "type":"origins:action_over_time",
+    "entity_action":{
+       "type":"origins:and",
+       "actions":[
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_ingot",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_helmet",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_chestplate",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_leggings",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_boots",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_nugget",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_block",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_hoe",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_pickaxe",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_axe",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_shovel",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s shears",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_door",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_trapdoor",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s minecart",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_bars",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_ore",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s deepslate_iron_ore",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s raw_iron",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s raw_iron_block",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_horse_armor",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"clear @s iron_sword",
+             "permission_level":4
+          }
+       ]
+    },
+    "interval":5
+}
